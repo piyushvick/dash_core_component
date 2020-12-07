@@ -8,8 +8,8 @@ app = dash.Dash(__name__)
 app.layout = html.Div([
     dash_core_components.DashCoreComponents(
         id='input',
-        value='my-value',
-        label='my-label'
+        value='First Name',
+        label='First Name'
     ),
     html.Div(id='output')
 ])

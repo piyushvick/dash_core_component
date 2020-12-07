@@ -14,7 +14,7 @@ export default class DashCoreComponents extends Component {
 
         return (
             <div id={id}>
-                ExampleComponent: {label}&nbsp;
+                 {label}&nbsp;
                 <input
                     value={value}
                     onChange={
